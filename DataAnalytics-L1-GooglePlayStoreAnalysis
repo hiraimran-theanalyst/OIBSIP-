@@ -1,0 +1,114 @@
+ Google Play Store Analysis
+
+ 📌 Objective
+The objective of this project is to perform a comprehensive Exploratory Data Analysis (EDA) of the Google Play Store ecosystem by cleaning real-world data, analyzing app categories, ratings, installs, pricing trends, and conducting sentiment analysis on user reviews.
+
+---
+
+🛠️ Tech Stack
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- TextBlob
+- Jupyter Notebook
+
+---
+
+ 📂 Dataset
+This project uses two publicly available datasets from Kaggle:
+1. googleplaystore.csv
+2. googleplaystore_user_reviews.csv
+
+---
+ 📋 Project Workflow
+
+ ✔ Data Loading
+- Loaded Google Play Store Apps dataset
+- Loaded User Reviews dataset
+
+ ✔ Data Cleaning
+- Removed duplicate records
+- Handled missing values
+- Fixed incorrect data types
+- Cleaned Installs column
+- Converted Price to numeric values
+- Processed App Size column
+
+   ✔ Exploratory Data Analysis
+- App distribution by category
+- Rating distribution
+- Average rating by category
+- Size vs Installs analysis
+- Free vs Paid apps comparison
+- Price distribution
+- Revenue estimation by category
+
+ ✔ Sentiment Analysis
+- Classified reviews as:
+  - Positive
+  - Neutral
+  - Negative
+- Compared sentiment across app categories
+
+ ✔ Interactive Visualization
+- Created interactive charts using Plotly
+
+ 📊 Key Visualizations
+- Category Distribution
+- Rating Distribution
+- Average Rating by Category
+- App Size vs Installs Scatter Plot
+- Free vs Paid Apps
+- Price Distribution
+- Estimated Revenue by Category
+- Sentiment Distribution
+- Sentiment by Category
+- Interactive Plotly Charts
+
+
+ 📁 Project Structure
+
+```
+DataAnalytics-L1-GooglePlayStoreAnalysis/
+│
+├── googleplaystore.csv
+├── googleplaystore_user_reviews.csv
+├── Google_Play_Store_Analysis.ipynb
+├── cleaned_googleplaystore.csv
+├── images/
+└── README.md
+
+ 💡 Key Insights
+
+- Communication and Social categories have the highest number of installs.
+- Most applications on the Google Play Store are free.
+- Highly rated apps generally receive more installs.
+- Paid apps represent a small portion of the market but can generate significant revenue in selected categories.
+- User sentiment is mostly positive for highly rated applications.
+
+
+ 🎯 Conclusion
+
+This project demonstrates practical skills in:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
+- Sentiment Analysis
+- Business Insight Generation
+
+The analysis provides valuable insights for developers planning to launch a successful Android application.
+
+---
+
+ 👩‍💻 Author
+Hira Imran
+
+Data Analytics Intern – Oasis Infobyte (OIBSIP)
+
+
+
+ 
